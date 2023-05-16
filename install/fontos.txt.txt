@@ -1,0 +1,18 @@
+Két módon lehet feltölteni az adatokat!
+
+1. SQL fájl importálása.
+Az adatbázist is létrehozza, nem kell létrehozni manuálisan!
+Adatbázis neve amit lérehoz: vegleges
+
+2. Install fájlokkal.
+Adatbázist létre kell hozni előtte 'vegleges' néven!
+Futtatni a fájlokat ebben a sorrendben:
+createTables.php
+insertDefaultData.php
+addDummyData.php
+
+Bejelentkezés
+Minden felhasználó jelszava: 12345678
+
+Admin email: email@domain.hu
+Admin jelszó: 12345678
