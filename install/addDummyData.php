@@ -24,10 +24,10 @@ $addUserData = "INSERT INTO user_data (U_ID, FIRST_NAME, LAST_NAME, PHONE_NUMBER
 
 $addUserPhoto = "INSERT INTO user_photo (ID, U_ID, FILE_NAME)
                  VALUES 
-                 ('',2,'deafult.png'),
-                 ('',3,'deafult.png'),
-                 ('',4,'deafult.png'),
-                 ('',5,'deafult.png')
+                 ('',2,'default.png'),
+                 ('',3,'default.png'),
+                 ('',4,'default.png'),
+                 ('',5,'default.png')
                  ";
 
 $addLog = "INSERT INTO log (ID, U_ID, TYPE, MESSAGE, DATE, IP)
